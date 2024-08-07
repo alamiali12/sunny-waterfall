@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Waterfall</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+    <%- include('partials/header') %>
+    <main>
+        <section id="hero">
+            <h1>Welcome to Sunny Waterfall</h1>
+            <p>Discover our innovative mail reading technology.</p>
+            <a href="/shop" class="cta">Shop Now</a>
+        </section>
+        <section id="about-team">
+            <h2>About the Team</h2>
+            <p>Meet the experts behind Sunny Waterfall.</p>
+            <!-- Team member profiles -->
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <div class="feature">
+                <i class="fas fa-envelope-open-text"></i>
+                <h3>Easy to Use</h3>
+                <p>Our platform is designed with simplicity in mind. Anyone can use it with ease.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-lock"></i>
+                <h3>Secure</h3>
+                <p>We prioritize your privacy and security with our state-of-the-art technology.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h3>Community Driven</h3>
+                <p>Join our community and share your experiences. We value user feedback.</p>
+            </div>
+        </section>
+    </main>
+    <%- include('partials/footer') %>
+</body>
+</html>
